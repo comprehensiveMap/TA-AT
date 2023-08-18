@@ -39,8 +39,6 @@ The result file (```$MODEL_OUTPUT```) will be saved in the checkpoint directory.
 For the MultiWOZ benchmark, we recommend to use [standardized evaluation script](https://github.com/Tomiinek/MultiWOZ_Evaluation).
 
 ```
-# MultiWOZ2.2 is used for the benchmark (MultiWOZ2.2 should be preprocessed prior to this step)
-python main.py -run_type predict -ckpt $CHECKPOINT -output $MODEL_OUTPUT -batch_size $BATCH_SIZE -version 2.2
 # convert format for the the standardized evaluation, before running it, you should first change the variable 'file_path' to your raw inference file path, and change the variable 'file_path_1' to your target output file path.
 
 python convert_to_standard.py
