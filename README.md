@@ -19,7 +19,6 @@ python -m spacy download en_core_web_sm
 
 Our implementation supports a single GPU. Please use smaller batch size and more accumulation steps to ensure the toal batch size if out-of-memory error raises.
 
-- MTTOD without auxiliary task (for the ablation)
 ```
 sh scripts/train.sh
 ```
@@ -33,9 +32,6 @@ sh scripts/test.sh
 All checkpoints are saved in ```$MODEL_DIR``` with names such as 'ckpt-epoch10'.
 
 The result file (```$MODEL_OUTPUT```) will be saved in the checkpoint directory.
-
-
-You can download our trained model [here](https://drive.google.com/file/d/1azIdWPgJKa3PTBFE8lZ1B02bfgguKS2u/view?usp=sharing).
 
 
 ## Standardized Evaluation
