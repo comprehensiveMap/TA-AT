@@ -2,3 +2,4 @@
 /data
 /inferenece_results
 /t5-base
+/__pycache__
