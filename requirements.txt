@@ -1,0 +1,8 @@
+nltk
+tqdm
+spacy
+numpy
+torch==1.12.0
+transformers==4.28.0
+tensorboardX
+sentencepiece

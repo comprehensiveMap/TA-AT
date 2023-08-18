@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=0 python main.py \
+    -dataset multiwoz_2.0 \
+    -run_type train \
+    -add_additional_loss \
+    -with_tree \
+    -mu 10 \
+    -model_dir mwzo2.0_with_tree_mu_10 \
+    -epochs 10 \
+    -batch_size 8\
+    -warmup_ratio 0.1\
+    -max_to_keep_ckpt 10 \
