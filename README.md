@@ -2,7 +2,7 @@
 
 This is code for the paper "TA&AT: Enhancing Task-Oriented Dialog with Turn-Level Auxiliary Tasks and Action-Tree Based Scheduled Sampling".
 
-First download the preprocessed datasets and TreeBase for each MultiWOZ dataset from our provided google drive links. ()
+First download the preprocessed datasets and TreeBase for each MultiWOZ dataset from our provided google drive links. (https://drive.google.com/file/d/1wBbZKYpweCKbwVHIJLV3DxcJh-KX_UXc/view?usp=sharing), unzip it in this directory.
 
 ## Environment setting
 
